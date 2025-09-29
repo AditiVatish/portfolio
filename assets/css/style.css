@@ -1,0 +1,17 @@
+/* Smooth transitions */
+a, button {
+  transition: 0.3s ease;
+}
+
+a:hover, button:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
+
+/* Hero style from index.html */
+header {
+  background: linear-gradient(135deg, #ff6600 0%, #ff944d 100%);
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
